@@ -246,8 +246,8 @@
 	#banner
 	{
 		position: relative;
-		background: #333 url(../images/banner.jpg) no-repeat center;
-		background-size: cover;
+		/*background: #333 url(../images/banner.jpg) no-repeat center;
+		background-size: cover;*/
 	}
 	
 	.homepage #banner
