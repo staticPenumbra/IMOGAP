@@ -11,10 +11,11 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #180E0B;
+		background: #0066CC;
 		font-family: 'Raleway', sans-serif;
 		font-size: 11pt;
-		color: #000000;
+		/*body text color*/
+		color: #CC0000;
 	}
 
 	h1, h2, h3 {
@@ -128,7 +129,8 @@
 		
 		ul.style a
 		{
-			color: #774535 !important;
+			/*bottom links*/
+			color: #FC4203 !important;
 		}
 
 		ul.style1
@@ -146,7 +148,7 @@
 		
 		ul.style1 a
 		{
-			color: #774535 !important;
+			color: #FC4203 !important;
 		}
 
 		ul.style1 img
@@ -181,7 +183,7 @@
 	
 		#logo h1
 		{
-			color: #FFF;
+			color: #CC0000;
 		}
 	
 		#logo a
@@ -190,7 +192,7 @@
 			text-decoration: none;
 			font-size: 2.8em;
 			font-weight: 600;
-			color: #FFF;
+			color: #CC0000;
 		}
 
 /*********************************************************************************/
@@ -224,14 +226,14 @@
 				text-decoration: none;
 				font-size: 1em;
 				outline: 0;
-				color: #FFF;
+				color: #FC4203;
 			}
 
 			#nav li.active a
 			{
 				background: #56c9d6;
 				border-radius: 5px;
-				color: #FFF;
+				color: #FC4203;
 			}
 
 			#nav > ul > li > ul
@@ -262,18 +264,23 @@
 	{
 		position: relative;
 		padding: 6em 0em;
-		background: #261611;
-		color: #774535;
+		/*Bottom 3rd BG*/
+		background: #F59E29;
+		/*Bottom 3rd left text*/
+		color: #FC4203;
+		border-style: dashed;
+		border-width: 5px;
 	}
 	
 	#main header h2
 	{
-		color: #bc765f;
+		color: #0066CC;
 	}
 	
 	#main a
 	{
-		color: #bc765f;
+		/*Bottom title text*/
+		color: #3399FF;
 	}
 
 /*********************************************************************************/
@@ -284,7 +291,11 @@
 	{
 		position: relative;
 		padding: 6em 0em 4em 0em;
-		background: #FFF;
+		/*2nd Frame BG color*/
+		background: #F59E29;
+		color: #0066CC;
+		border-style: dashed;
+		border-width: 5px;
 	}
 
 /*********************************************************************************/
@@ -295,13 +306,16 @@
 	{
 		position: relative;
 		padding: 6em 0em;
-		background: #372019;
-		color: #8c5240;
+		/*bottom 3rd Background*/
+		background: #F59E29;
+		color: #0066CC;
+		border-style: dashed;
+		border-width: 5px;
 	}
 	
 	#marketing header h2
 	{
-		color: #c0745d;
+		color: #0066CC;
 	}
 
 /*********************************************************************************/
